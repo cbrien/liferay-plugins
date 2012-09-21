@@ -261,13 +261,20 @@
 				<type>java.lang.Exception</type>
 			</throws>
 		</method>
+		<method>
+			<name>initInstance</name>
+			<param>
+				<name>companyId</name>
+				<type>long</type>
+			</param>
+		</method>
 	</javadoc>
 	<javadoc>
-		<name>AnnouncementsEntryServiceImpl</name>
-		<type>com.liferay.so.hook.service.impl.AnnouncementsEntryServiceImpl</type>
+		<name>SOAnnouncementsEntryServiceImpl</name>
+		<type>com.liferay.so.hook.service.impl.SOAnnouncementsEntryServiceImpl</type>
 		<author><![CDATA[Jonathan Lee]]></author>
 		<method>
-			<name>AnnouncementsEntryServiceImpl</name>
+			<name>SOAnnouncementsEntryServiceImpl</name>
 			<param>
 				<name>announcementsEntryService</name>
 				<type>com.liferay.portlet.announcements.service.AnnouncementsEntryService</type>
@@ -365,41 +372,6 @@
 			<param>
 				<name>announcementEntry</name>
 				<type>com.liferay.portlet.announcements.model.AnnouncementsEntry</type>
-			</param>
-			<throws>
-				<name>PortalException</name>
-				<type>com.liferay.portal.kernel.exception.PortalException</type>
-			</throws>
-			<throws>
-				<name>SystemException</name>
-				<type>com.liferay.portal.kernel.exception.SystemException</type>
-			</throws>
-		</method>
-	</javadoc>
-	<javadoc>
-		<name>CompanyLocalServiceImpl</name>
-		<type>com.liferay.so.hook.service.impl.CompanyLocalServiceImpl</type>
-		<author><![CDATA[Ryan Park]]></author>
-		<method>
-			<name>CompanyLocalServiceImpl</name>
-			<param>
-				<name>companyLocalService</name>
-				<type>com.liferay.portal.service.CompanyLocalService</type>
-			</param>
-		</method>
-		<method>
-			<name>checkCompany</name>
-			<param>
-				<name>webId</name>
-				<type>java.lang.String</type>
-			</param>
-			<param>
-				<name>mx</name>
-				<type>java.lang.String</type>
-			</param>
-			<param>
-				<name>shardName</name>
-				<type>java.lang.String</type>
 			</param>
 			<throws>
 				<name>PortalException</name>
